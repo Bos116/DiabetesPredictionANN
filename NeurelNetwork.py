@@ -39,6 +39,7 @@ classifier = Sequential()
 classifier.add(Dense(units=6, kernel_initializer='uniform', activation='relu', input_dim=11))
 classifier.add(Dense(units=6, kernel_initializer='uniform', activation='relu'))
 classifier.add(Dense(units=6, kernel_initializer='uniform', activation='relu'))
+classifier.add(Dense(units=6, kernel_initializer='uniform', activation='relu'))
 classifier.add(Dense(units=3, kernel_initializer='uniform', activation='softmax'))
 
 # Define the learning rate
