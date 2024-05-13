@@ -1,2 +1,3 @@
 # DiabetesPredictionANN
-University project in predicting diabetes in patients 
+University project in predicting diabetes in patients
+
