@@ -11,6 +11,8 @@ import matplotlib.pyplot as plt
 #Loading dataset
 data_set = pd.read_csv('DatasetOfDiabetes.csv')
 
+data_set = data_set.drop_duplicates()
+
 #formating columns
 data_set['CLASS'] = data_set['CLASS'].replace({'N ':'N','Y ': 'Y'})
 data_set['Gender'] = data_set['Gender'].replace({'f': 'F'})
